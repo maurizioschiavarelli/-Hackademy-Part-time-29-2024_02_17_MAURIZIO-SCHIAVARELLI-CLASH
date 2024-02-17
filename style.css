@@ -167,11 +167,71 @@ strong{
 
 .img_card{
     width: 60%;
+    
 }
 
 .rowcardsection1{
+    display: flex;
     justify-content: center;
 }
+
+.town_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin-top: 8px;
+}
+
+.town_card > a{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button_town{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 28px;
+    width: 160px;
+    margin-top: 10px;
+}
+
+/* carousel next secion */
+
+.carousel > p{
+    text-align: center;
+    color: gray;
+    font-size: 40px;
+}
+
+.carousel > a{
+    background-color: #FF640D;
+    font-size: 50px;
+    padding: 8px 60px 8px 60px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
 
 @media screen and (max-width: 960px){
 
