@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* grid system */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col50{
+    width: 50%;
+}
+
+.col40{
+    width: 50%;
+}
+
+.col33{
+    width: 33%;
+}
+.col60{
+    width: 60%;
+}
+
+@media screen and (max-width: 960px){
+.col50{
+    width: 100%;
+}
+
+.col40{
+    width: 100%;
+}
+
+.col33{
+    width: 100%;
+}
+.col60{
+    width: 100%;
+}
+}
+
+
+/* selector relativi alla navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    height: calc(100px + 0.9vw);
+
+}
+
+ul > li {
+    display: inline-block;
+    padding: 14px;
+    color:#FF640D;
+}
+
+h1{
+    display: inline-block;
+    font-size: calc(45px + 1.5vw);
+    margin-left: 3%;
+}
+
+.clans{
+    display: inline;
+    color:#FF640D;
+}
+
+.navigation{
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 937px){
+
+    .navigation{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* selector relativi all'hero section */
+
+.hero_section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_section > p{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: calc(8px + 3.1vw);
+    width: 70%;
+    
+}
+
+p > strong{
+    color:#FF640D;
+}
+
+.hero_section > a{
+    position: absolute;
+    bottom: 5%;
+    
+    font-size: calc(8px + 3.1vw);
+    border:2px solid white ;
+    border-radius: 60px;
+    padding: 2% 0 2% 0 ;
+    width: calc(120px + 11.1vw);
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* selector relativi alla sezione 1 card town hall */
+
+.section1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.section1 > h2{
+    margin-bottom: 2%;
+    font-size: calc(50px + 1.5vw);
+
+}
+
+strong{
+    color:#FF640D;
+}
+
+.section1 > p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.img_card{
+    width: 60%;
+}
+
+.rowcardsection1{
+    justify-content: center;
+}
+
+@media screen and (max-width: 960px){
+
+    
+
+}
+
+
+
+
+
