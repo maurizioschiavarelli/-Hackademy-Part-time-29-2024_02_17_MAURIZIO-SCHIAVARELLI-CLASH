@@ -17,6 +17,9 @@ a{
     text-decoration: none;
     color: black;
 }
+p{
+    font-size: calc(8px + 1.5vw);
+}
 
 /* grid system */
 
@@ -86,10 +89,15 @@ h1{
 .clans{
     display: inline;
     color:#FF640D;
+    font-size: calc(45px + 1.5vw);
 }
 
 .navigation{
     margin-right: 5%;
+}
+
+li > a{
+    color: #FF640D;
 }
 
 @media screen and (max-width: 937px){
@@ -210,6 +218,7 @@ h3{
     text-align: center;
     color: gray;
     font-size: 40px;
+    margin-top: 30px;
 }
 
 .carousel > a{
@@ -228,8 +237,30 @@ h3{
     justify-content: center;
 }
 
+/* selettori relativi al footer */
 
+.footer_h2{
+    margin-top: 80px;
+    text-align: center;
+    font-size: calc(45px + 1.5vw);
+}
 
+.footer_p{
+    text-align: center;
+}
+
+.footer_playstore{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.button_footer{
+    text-align: center;
+    background-color: #FF640D;
+    width: 200px;
+}
 
 
 
